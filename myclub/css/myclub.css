@@ -1,0 +1,128 @@
+form { padding: 20px; font-family: "Book Antiqua"; color: black; font-size: 100%}
+legend { background-color: #f6e6ae; font-size: 150%; font-family: "Book Antiqua"; padding: 20px; color: darkgray; letter-spacing: 1px; vertical-align: center}
+h1 {font-family: "Book Antiqua"; font-weight: 300; font-style: italic; font-size: 320%; color: white; text-align: center; background-color: #2c2c2c; padding-top: 20px; padding-bottom: 20px;}
+h2 {font-family: "Book Antiqua"; font-weight: 300; letter-spacing: 1px; font-size: 140%; color: black; text-align: center; padding-left: 40px; padding-right: 40px;}
+label {font-family: "Book Antiqua"; font-weight: 300; letter-spacing: 2px; text-transform: uppercase; font-size: 130%; color: grey;}
+h3 {font-family: "Book Antiqua"; font-weight: 300; font-style: italic; font-size: 100%; color: black;}
+h4 {font-family: "Book Antiqua"; font-weight: 300; letter-spacing: 1px; font-size: 130%; color: white; text-align: center; padding-left: 40px; padding-right: 40px;}
+h5 {font-family: "Book Antiqua"; font-weight: 300; letter-spacing: 1px; font-size: 140%; color: #eb9d4f; text-align: center; padding-left: 40px; padding-right: 40px; font-style: italic;}
+body {
+	background-image: url(http://cscilab.bc.edu/~pear/hw11/img/hogwarts.jpg);
+    background-color: #2c2c2c;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment:  fixed;
+    font: 12px "Book Antiqua", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color: lightgray;
+}
+div.transbox {
+	margin-top: 50px;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-bottom: 150px;
+	background-color: darkgray;
+	opacity: .85;
+	text-align: center;
+}
+div.centering {
+    text-align: center;
+}
+
+div.news {
+	overflow: auto;
+	height: 100px;
+	border: 1px groove lightyellow;
+	font-size: 10px; font-family: Tahoma; 
+	color: #a2a2a2; text-align: left;
+	padding-left: 100px; padding-right: 100px;
+	background-color: #2c2c2c;
+}
+
+.mycb {padding: 20px; font-size: 110%; color: grey;}
+.myrb {padding: 20px; font-size: 110%; color: grey;}
+
+/*submit buttons */
+.forgot input[type=submit] {padding:20px; background: #1b2844; color: lightgray; font-size: 100%; vertical-align: center; border: none;}
+button[type=submit] {padding: 7px; background-color: #6b5d7c; color: lightgray; font-size: 130%; vertical-align: center; text-transform: uppercase; border: none;}
+button[type=submit]:hover {background-color: #4e3e60;}
+input[type=submit] {
+    background: #eda821; padding-top: 30px; padding-bottom: 30px; padding-left: 50px; padding-right: 50px;
+    font-family: 'Berkshire Swash', cursive; color: white; font-size: 200%; 
+    vertical-align: center;
+    border: none;
+}
+input[type=submit]:hover {background-color: #cc9000;}
+input[type=text] {padding: 1em; height: 1em; margin: 5px;}
+input[type=password] {padding: 1em; height: 1em; margin: 5px;}
+.login {
+    float: right;
+    text-transform: uppercase; text-align: center; font-weight: bold; 
+    background-color: #4f4e4f;
+    padding: 4px; margin: 7px;
+    box-shadow: 0px -2px 15px 5px #261911;
+}
+.housequiz {
+    display: inline-block;
+    text-transform: uppercase; text-align: center; font-weight: bold; 
+    background-color: #eda821;
+    padding: 4px; margin: 7px;
+}
+
+/* unvisited link */
+a {
+    color: lightyellow;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+ }
+.mail {text-align: left; margin-left: 20px;}
+textarea {
+	display: block;
+    padding: 1em;
+    margin-right: auto;
+    text-align: left;
+    font-family: "Book Antiqua";
+
+    height: 12em;
+    max-height: 12em;
+
+    width: 70%;
+    max-width: 70%;
+}
+div.menu {
+    padding: 10px; margin: 0 auto; margin-bottom: 10px; text-align: center; vertical-align: middle;
+    text-transform: uppercase;  font-size: 20px; text-decoration: none;
+    position: fixed;
+    top: 0; left:0; right:0; background-color: #2c2c2c;
+    z-index: 9999; width: 25%; height: 50px; opacity: .70;
+}
+ul {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    width: 60px;
+}
+
+
